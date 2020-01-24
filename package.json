@@ -1,0 +1,24 @@
+{
+    "name": "asincronismo_javascript",
+    "version": "1.0.0",
+    "description": "Uso de asincronismo en js",
+    "main": "src/index.js",
+    "scripts": {
+        "callback": "node src/callbacks/index.js",
+        "callback:challenge": "node src/callbacks/challenge.js",
+        "promise": "node src/promises/index.js",
+        "promise:challenge": "node src/promises/challengePromise.js",
+        "async": "node src/async/index.js",
+        "async:challenge": "node src/async/challengeAsync.js"
+    },
+    "keywords": [
+        "callback",
+        "promise",
+        "async"
+    ],
+    "author": "E",
+    "license": "MIT",
+    "dependencies": {
+        "xmlhttprequest": "^1.8.0"
+    }
+}
